@@ -78,6 +78,16 @@ aside {
     display: flex;
 }
 
+@media (max-width: 767px) {
+    aside{
+        display: none;
+    }
+
+    .wrapper {
+        width: calc(100vw);
+    }
+}
+
 aside .text {
     writing-mode: tb-rl;
     transform: rotate(180deg);
